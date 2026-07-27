@@ -17,7 +17,7 @@ Aplikasi ini merupakan bagian dari Tugas Akhir dengan judul:
 **Program Studi:** D3 Teknik Informatika
 **Jurusan:** Teknologi Informasi
 **Institusi:** Politeknik Negeri Samarinda
-**Tahun:** 2025/2026
+**Tahun:** 2026
 
 ---
 
@@ -120,9 +120,9 @@ ta-kb-anggana/
 
 | Metrik | Nilai | Kategori |
 |---|---|---|
-| MAE | 210,43 peserta | — |
-| RMSE | 257,80 peserta | — |
-| MAPE | 6,71% | **Sangat Akurat** (< 10%) |
+| MAE | 102 peserta | — |
+| RMSE | 143 peserta | — |
+| MAPE | 3.56% | **Sangat Akurat** (< 10%) |
 
 ---
 
