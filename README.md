@@ -1,12 +1,12 @@
-# 📊 Dashboard Forecasting KB — Kecamatan Anggana
+# Dashboard Forecasting KB — Kecamatan Anggana
 
 Aplikasi web interaktif untuk analisis tren, prediksi jumlah peserta Keluarga Berencana (KB), dan analisis pergeseran preferensi jenis kontrasepsi di Kecamatan Anggana menggunakan metode **Time Series** dengan algoritma **Prophet**.
 
-🔗 **Live App:** [https://ta-kb-anggana.streamlit.app](https://ta-kb-anggana.streamlit.app)
+**Live App:** [https://ta-kb-anggana.streamlit.app](https://ta-kb-anggana.streamlit.app)
 
 ---
 
-## 📌 Tentang Proyek
+## Tentang Proyek
 
 Aplikasi ini merupakan bagian dari Tugas Akhir dengan judul:
 
@@ -21,28 +21,28 @@ Aplikasi ini merupakan bagian dari Tugas Akhir dengan judul:
 
 ---
 
-## 🎯 Fitur Utama
+##  Fitur Utama
 
 | Fitur | Deskripsi |
 |---|---|
-| 🎯 **Business Understanding** | Latar belakang, rumusan masalah, tujuan, dan alur penelitian |
-| 📂 **Data Acquisition** | Tampilan data mentah SIGA BKKBN dan statistik deskriptif |
-| 🛠️ **Data Preparation** | Preprocessing data, deteksi outlier (IQR), pembagian data latih/uji |
-| 🤖 **Modeling Prophet** | Konfigurasi parameter dan dekomposisi komponen tren & musiman |
-| 📈 **Forecasting** | Prediksi jumlah peserta KB periode Januari–Desember 2025 |
-| ✅ **Evaluasi Model** | Perhitungan MAE, RMSE, MAPE dengan validasi LOOCV |
-| 📉 **Analisis Tren** | Visualisasi tren jangka panjang dan pola musiman tahunan |
-| 💊 **Preferensi Kontrasepsi** | Analisis pergeseran preferensi 7 jenis kontrasepsi Modern |
+|  **Business Understanding** | Latar belakang, rumusan masalah, tujuan, dan alur penelitian |
+|  **Data Acquisition** | Tampilan data mentah SIGA BKKBN dan statistik deskriptif |
+|  **Data Preparation** | Preprocessing data, deteksi outlier (IQR), pembagian data latih/uji |
+|  **Modeling Prophet** | Konfigurasi parameter dan dekomposisi komponen tren & musiman |
+|  **Forecasting** | Prediksi jumlah peserta KB periode Januari–Desember 2025 |
+|  **Evaluasi Model** | Perhitungan MAE, RMSE, MAPE dengan validasi LOOCV |
+|  **Analisis Tren** | Visualisasi tren jangka panjang dan pola musiman tahunan |
+|  **Preferensi Kontrasepsi** | Analisis pergeseran preferensi 7 jenis kontrasepsi Modern |
 
 ---
 
-## 🗂️ Sumber Data
+##  Sumber Data
 
 Data yang digunakan merupakan data sekunder berupa laporan bulanan peserta KB Modern yang bersumber dari **Sistem Informasi Keluarga (SIGA) BKKBN**, diperoleh melalui **Balai Penyuluhan KB Kecamatan Anggana**, periode **Januari 2022 – Desember 2024** (36 data poin).
 
 ---
 
-## 🧮 Metodologi
+##  Metodologi
 
 1. Pengumpulan Data
 2. Data Cleaning & Preprocessing
@@ -55,7 +55,7 @@ Data yang digunakan merupakan data sekunder berupa laporan bulanan peserta KB Mo
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 - **Python 3.11**
 - **Streamlit** — Framework aplikasi web interaktif
@@ -66,7 +66,7 @@ Data yang digunakan merupakan data sekunder berupa laporan bulanan peserta KB Mo
 
 ---
 
-## 🚀 Cara Menjalankan Secara Lokal
+##  Cara Menjalankan Secara Lokal
 
 1. Clone repository ini
 ```bash
@@ -95,7 +95,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Struktur Repository
+##  Struktur Repository
 
 ```
 ta-kb-anggana/
@@ -116,7 +116,7 @@ ta-kb-anggana/
 
 ---
 
-## 📊 Hasil Evaluasi Model
+##  Hasil Evaluasi Model
 
 | Metrik | Nilai | Kategori |
 |---|---|---|
@@ -126,7 +126,7 @@ ta-kb-anggana/
 
 ---
 
-## 🙏 Ucapan Terima Kasih
+##  Ucapan Terima Kasih
 
 - **Dosen Pembimbing I:** Asrina Astagani, ST., MT.
 - **Dosen Pembimbing II:** Fransisca Angelia Sebayang, S.Kom., M.Kom.
@@ -134,6 +134,6 @@ ta-kb-anggana/
 
 ---
 
-## 📄 Lisensi
+##  Lisensi
 
 Proyek ini dibuat untuk keperluan akademik Tugas Akhir Program Studi D3 Teknik Informatika, Politeknik Negeri Samarinda.
