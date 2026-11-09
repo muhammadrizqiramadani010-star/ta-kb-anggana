@@ -1,11 +1,11 @@
-# 📊 Dashboard Forecasting KB — Kecamatan Anggana
+#  Dashboard Forecasting KB — Kecamatan Anggana
 
 Aplikasi web interaktif untuk menganalisis tren, memprediksi jumlah peserta Keluarga Berencana (KB), dan menganalisis pergeseran preferensi jenis kontrasepsi di Kecamatan Anggana, Kutai Kartanegara, menggunakan algoritma **Prophet**.
 
 🔗 **Live App:** https://ta-kb-anggana.streamlit.app
 > Jika muncul tombol *"Yes, get this app back up!"*, klik dan tunggu sekitar satu menit. Aplikasi gratis di Streamlit Cloud akan "tidur" jika lama tidak dibuka.
 
-🧪 **Mau mencoba?** Unduh [`data_contoh.xlsx`](data_contoh.xlsx) di repository ini, lalu unggah ke aplikasi.
+ **Mau mencoba?** Unduh [`Contoh_Data_KB_Dummy.xlsx`](data_contoh.xlsx) di repository ini, lalu unggah ke aplikasi.
 
 <!-- Ganti dengan screenshot asli: simpan di folder images/ -->
 <!-- ![Forecasting](images/forecasting.png) -->
@@ -13,7 +13,7 @@ Aplikasi web interaktif untuk menganalisis tren, memprediksi jumlah peserta Kelu
 
 ---
 
-## 📌 Tentang Proyek
+##  Tentang Proyek
 
 Proyek ini adalah bagian dari Tugas Akhir berjudul:
 
@@ -30,7 +30,7 @@ Proyek ini adalah bagian dari Tugas Akhir berjudul:
 
 ---
 
-## 📈 Hasil Utama
+##  Hasil Utama
 
 **Akurasi model (validasi LOOCV, 36 data bulanan)**
 
@@ -58,28 +58,28 @@ Suntik tetap menjadi metode paling banyak digunakan. Kenaikan persentase Implant
 
 ---
 
-## 🎯 Fitur Utama
+##  Fitur Utama
 
 | Fitur | Deskripsi |
 |---|---|
-| 🎯 Business Understanding | Latar belakang, rumusan masalah, tujuan, dan alur penelitian |
-| 📂 Data Acquisition | Tampilan data mentah SIGA BKKBN dan statistik deskriptif |
-| 🛠️ Data Preparation | Preprocessing, deteksi outlier (IQR), pembagian data |
-| 🤖 Modeling Prophet | Konfigurasi parameter dan dekomposisi tren dan musiman |
-| 📈 Forecasting | Prediksi jumlah peserta KB periode Januari–Desember 2025 |
-| ✅ Evaluasi Model | MAE, RMSE, MAPE dengan validasi LOOCV |
-| 📉 Analisis Tren | Tren jangka panjang dan pola musiman tahunan |
-| 💊 Preferensi Kontrasepsi | Pergeseran preferensi 7 jenis kontrasepsi (Suntik, Pil, Kondom, Implant, IUD, MOW, MOP) |
+|  Business Understanding | Latar belakang, rumusan masalah, tujuan, dan alur penelitian |
+|  Data Acquisition | Tampilan data mentah SIGA BKKBN dan statistik deskriptif |
+|  Data Preparation | Preprocessing, deteksi outlier (IQR), pembagian data |
+|  Modeling Prophet | Konfigurasi parameter dan dekomposisi tren dan musiman |
+|  Forecasting | Prediksi jumlah peserta KB periode Januari–Desember 2025 |
+|  Evaluasi Model | MAE, RMSE, MAPE dengan validasi LOOCV |
+|  Analisis Tren | Tren jangka panjang dan pola musiman tahunan |
+|  Preferensi Kontrasepsi | Pergeseran preferensi 7 jenis kontrasepsi (Suntik, Pil, Kondom, Implant, IUD, MOW, MOP) |
 
 ---
 
-## 🗂️ Sumber Data
+##  Sumber Data
 
 Data sekunder berupa laporan bulanan peserta KB Modern dari **Sistem Informasi Keluarga (SIGA) BKKBN**, diperoleh melalui Balai Penyuluhan KB Kecamatan Anggana, periode **Januari 2022 – Desember 2024 (36 data poin)**.
 
 ---
 
-## 🧮 Metodologi
+##  Metodologi
 
 1. Pengumpulan data
 2. Data cleaning dan preprocessing
@@ -92,13 +92,13 @@ Data sekunder berupa laporan bulanan peserta KB Modern dari **Sistem Informasi K
 
 ---
 
-## 🛠️ Teknologi
+##  Teknologi
 
 Python 3.11 · Streamlit · Prophet · Pandas · NumPy · Scikit-learn · Plotly
 
 ---
 
-## 🚀 Menjalankan Secara Lokal
+##  Menjalankan Secara Lokal
 
 ```bash
 git clone https://github.com/muhammadrizqiramadani010-star/ta-kb-anggana.git
@@ -115,14 +115,14 @@ streamlit run app.py
 
 Buka http://localhost:8501
 
-## 📖 Cara Menggunakan Aplikasi
+##  Cara Menggunakan Aplikasi
 
 1. Buka live app (atau jalankan lokal).
 2. Unggah file Excel (`.xlsx`) dengan kolom minimal `ds` (tanggal) dan `total_peserta`. Anda bisa memakai `data_contoh.xlsx`.
 3. Pilih tahapan analisis di sidebar kiri.
 4. Jelajahi mulai dari pemahaman data hingga prediksi dan analisis preferensi.
 
-## 📁 Struktur Repository
+##  Struktur Repository
 
 ```
 ta-kb-anggana/
@@ -136,16 +136,16 @@ ta-kb-anggana/
 
 ---
 
-## ⚠️ Keterbatasan
+##  Keterbatasan
 
 - Data hanya **36 bulan** dari **satu kecamatan**, sehingga hasil peramalan bersifat perkiraan dan bukan kepastian.
 - Model hanya memakai pola historis; faktor eksternal (kebijakan, ketersediaan alat, kampanye) tidak dimodelkan.
 - Validasi LOOCV dipilih karena jumlah data terbatas; untuk data yang lebih panjang, validasi berurutan (rolling/time series cross validation) lebih disarankan.
 
-## 🙏 Ucapan Terima Kasih
+##  Ucapan Terima Kasih
 
 Kepada kedua dosen pembimbing dan Balai Penyuluhan KB Kecamatan Anggana atas data dan informasi yang diberikan.
 
-## 📄 Lisensi
+##  Lisensi
 
 Dibuat untuk keperluan akademik Tugas Akhir Program Studi D3 Teknik Informatika, Politeknik Negeri Samarinda.
