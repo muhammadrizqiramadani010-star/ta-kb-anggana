@@ -5,7 +5,7 @@ Aplikasi web interaktif untuk menganalisis tren, memprediksi jumlah peserta Kelu
 🔗 **Live App:** https://ta-kb-anggana.streamlit.app
 > Jika muncul tombol *"Yes, get this app back up!"*, klik dan tunggu sekitar satu menit. Aplikasi gratis di Streamlit Cloud akan "tidur" jika lama tidak dibuka.
 
- **Mau mencoba?** Unduh [`Contoh_Data_KB_Dummy.xlsx`](data_contoh.xlsx) di repository ini, lalu unggah ke aplikasi.
+ **Mau mencoba?** Unduh [`data_contoh.xlsx`](Contoh_Data_KB_Dummy.xlsx) di repository ini, lalu unggah ke aplikasi.
 
 <!-- Ganti dengan screenshot asli: simpan di folder images/ -->
 <!-- ![Forecasting](images/forecasting.png) -->
