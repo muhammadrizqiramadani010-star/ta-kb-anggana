@@ -107,7 +107,7 @@ ta-kb-anggana/
 
 ---
 
-## 📖 Cara Menggunakan Aplikasi
+##  Cara Menggunakan Aplikasi
 
 1. Buka aplikasi melalui link di atas
 2. Upload file Excel (`.xlsx`) dengan kolom minimal `ds` (tanggal) dan `total_peserta` (jumlah peserta KB)
